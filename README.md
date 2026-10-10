@@ -91,8 +91,6 @@ The following calculated fields were created in Looker Studio.
 | `Reach/Budget Spend (Installations/$)` | `1st time installs / Budget Spent (USD)` | Calculates installations per dollar spent |
 | `Conversion Rate` | `Granted / 1st Applied` | Calculates first-application-to-granted conversion |
 
-See [`docs/calculated-fields.md`](docs/calculated-fields.md) for further details and interpretation considerations.
-
 **Metric clarification:** `Budget Spend/Client` uses granted outcomes as its denominator. Unless each granted outcome represents a unique customer, this should not automatically be interpreted as customer acquisition cost (CAC). Similarly, installations per dollar spent measures installation efficiency, not advertising reach in the conventional sense.
 
 ## Key Findings from the Original Case Study
@@ -181,23 +179,19 @@ If I were revisiting the project today, I would consider:
 ```text
 looker-studio-marketing-analytics/
 ├── README.md
-├── .gitignore
 ├── assets/
-│   ├── dashboard-demo.gif
-│   ├── summary-dashboard.png
-│   ├── customer-acquisition-dashboard.png
-│   └── budget-management-dashboard.png
-└── docs/
-    ├── calculated-fields.md
-    ├── methodology.md
-    └── publication-checklist.md
+    ├── dashboard-demo.gif
+    ├── summary-dashboard.png
+    ├── customer-acquisition-dashboard.png
+    └── budget-management-dashboard.png
+
 ```
 
 ## Author
 
 **Uchenna Nwachukwu, MSc**
 
-Data & Operations | Business Intelligence | Analytics
+Data Science | Business Intelligence | Analytics
 
 [Connect with me on LinkedIn](https://www.linkedin.com/in/davuche/)
 
